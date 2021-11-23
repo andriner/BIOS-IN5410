@@ -1,5 +1,5 @@
 for f in *.fasta
 do
-    cho $f
-    python ../scripts/seq_length.py $f
+    echo $f
+    python ../scripts/seq_lengths.py $f
 done
